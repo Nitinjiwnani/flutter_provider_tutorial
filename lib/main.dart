@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_provider/home_screen.dart';
 import 'package:flutter_provider/stateful_widget_screen.dart';
+import 'package:flutter_provider/why_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const StatefullWidget(),
+      home: const WhyProviderScreen(),
     );
   }
 }
